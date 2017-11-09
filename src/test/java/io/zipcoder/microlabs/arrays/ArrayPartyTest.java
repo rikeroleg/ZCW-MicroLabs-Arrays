@@ -66,8 +66,9 @@ public class ArrayPartyTest {
 
     }
 
-
     //TODO Define the method isPalindromeTest
+    
+
 
     //TODO Define the method compressTest
 

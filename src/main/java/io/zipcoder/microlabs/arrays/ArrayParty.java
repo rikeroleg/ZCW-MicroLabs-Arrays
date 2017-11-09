@@ -36,7 +36,7 @@ public class ArrayParty {
         String print = "*** Output ***";
 
         for (int i = inputArray.length - 1; i >= 0; i--){
-            print += ":\n" + inputArray;
+            print += "\n: " + inputArray[i];
         }
         return print;
     }
@@ -44,8 +44,10 @@ public class ArrayParty {
     //TODO Define the method isPalindrome
     public boolean isPalindrome(String[] inputArray){
         ArrayParty arrayParty = new ArrayParty();
+
         String palindromic = arrayParty.printArray(inputArray);
         String breakfast = arrayParty.printArray(inputArray);
+
         if (palindromic.equals(breakfast)){
             return true;
         }
